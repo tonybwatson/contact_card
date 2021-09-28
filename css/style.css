@@ -1,0 +1,4 @@
+img:hover {
+    background-color: rgb(30, 160, 235, .5);
+    transition-delay: .2s;
+}
