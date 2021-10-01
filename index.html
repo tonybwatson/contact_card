@@ -13,17 +13,13 @@
     <title>Contact Card</title>
 </head>
 
-<body style="background-color: black;">
-    <!-- big container, holds background image (and basically everything else) -->
-    <div class="container-fluid p-4" style="background-image: url(./img/blue-textured-background.jpeg); 
-        min-height: 100%; 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;">
+<body class="bg-image" style="background-image: url(./img/blue-textured-background.jpeg)">
+    <!-- big container, holds all the things -->
+    <div class="container-fluid">
         <header class="row d-flex ">
             <ul class="nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page" id="time"></a>
+                    <p href="#" class="nav-link active" aria-current="page" id="time"></p>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link"></a>
@@ -33,22 +29,23 @@
 
         <!-- image of Tony, changes onmouseover -->
         <div class="justify-content-center">
-            <img class="rounded-circle image-fluid mx-auto d-block p-3" src="./img/IMG_6446.jpg" style="max-height: 300px"></img>
+            <img class="rounded-circle image-fluid mx-auto d-block p-3" src="./img/cuba-pic-square.jpg"
+                style="max-height: 300px"></img>
         </div>
 
         <!-- container for contact info buttons -->
-        <div class="container col-10 p-4 text-dark rounded-3" style="background-color: rgba(255, 255, 255, 0.6);">
-            <div class="row p-2 justify-content-center">Anthony Watson</div>
-            <div class="row justify-content-center">
-                <div class="col-3 rounded float-start">
+        <div class="container col-11 p-2 text-dark rounded-3" style="background-color: rgba(255, 255, 255, 0.6);">
+            <div class="row justify-content-center m-2">Anthony Watson</div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-3 rounded float-start m-2">
                     <a href="mailto:tonybwatson@gmail.com">
                         <img src="img/Contact-Card-Icons/Email.svg">
                     </a>
                 </div>
-                <div class="col-3 rounded float-middle">
+                <div class="col-3 rounded float-middle m-2">
                     <img src="img/Contact-Card-Icons/Phone.svg">
                 </div>
-                <div class="col-3 rounded float-end">
+                <div class="col-3 rounded float-end m-2">
                     <a href="https://tonybwatson.github.io/">
                         <img src="img/Contact-Card-Icons/Website.svg">
                     </a>
@@ -56,25 +53,19 @@
             </div>
             <hr>
             <div class="row justify-content-center">
-                <div class="col-3">
+                <div class="col-3 m-2 mb-3">
                     <img src="img/Contact-Card-Icons/Instagram.svg">
                 </div>
-                <div class="col-3">
+                <div class="col-3 m-2">
                     <img src="img/Contact-Card-Icons/Twitter.svg">
                 </div>
-                <div class="col-3">
+                <div class="col-3 m-2">
                     <a href="https://github.com/tonybwatson">
                         <img src="img/Contact-Card-Icons/Github.svg">
                     </a>
                 </div>
             </div>
         </div>
-
-    </div>
-
- 
-
-
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
